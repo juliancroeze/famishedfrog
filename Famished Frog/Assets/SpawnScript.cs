@@ -7,7 +7,7 @@ public class SpawnScript : MonoBehaviour
     public GameObject modelPrefab;
     public GameObject[] spawnPoints;
     public GameObject[] randomSpawnPoints;
-
+    
     private float time = 0.0f;
     public float interpolationPeriod = 5f;
     void Start()
