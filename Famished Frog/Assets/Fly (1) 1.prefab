@@ -2181,6 +2181,7 @@ GameObject:
   - component: {fileID: 6334473025837452675}
   - component: {fileID: 1450693571116725093}
   - component: {fileID: 7482509928506952961}
+  - component: {fileID: -8632231453434733078}
   m_Layer: 0
   m_Name: Fly (1) 1
   m_TagString: Fly
@@ -2234,6 +2235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   proximityDistance: 0.5
+  pointManager: {fileID: -8632231453434733078}
 --- !u!114 &1450693571116725093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2382,6 +2384,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.3250318, y: 2.1545253, z: 7.3295183}
   m_Center: {x: 0.070364796, y: 2.2500527, z: -2.6237464}
+--- !u!114 &-8632231453434733078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7937157623400590121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8439561af1f68bf478da6be7095daf0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8008928018633213243
 GameObject:
   m_ObjectHideFlags: 0

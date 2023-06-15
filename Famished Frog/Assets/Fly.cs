@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class Fly : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Fly : MonoBehaviour
     private float movementSpeed = 3f;
     public float proximityDistance = 0.5f;
     private bool isTriggerPressed = false;
+    public pointManager pointManager;
 
     // Start is called before the first frame update
     void Start()
@@ -52,10 +54,8 @@ public class Fly : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            int points;
-            Int32.TryParse(UIText.text, out points);
-            points++;
-            UIText.text = points.ToString();
+            pointManager.addPoints(1);
+            UIText.text = pointManager.getPoints().ToString();
             Destroy(gameObject);
         }
     }
