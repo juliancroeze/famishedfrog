@@ -26,7 +26,7 @@ public class pointManager : MonoBehaviour
     {
     }
 
-    private void Start(int uIText)
+    private void Start()
     {
         UIText = GameObject.FindGameObjectWithTag("Points").GetComponent<Text>();
         int.TryParse(UIText.text, out points);
