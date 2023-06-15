@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
@@ -9,15 +10,13 @@ public class ButtonScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        onClick();
     }
 
     // Update is called once per frame
-    void onClick()
+    public void onClick()
     {
-        SceneManager.LoadScene(sceneName: "SampleScene");
-        Thread.Sleep(10000);
-        SceneManager.LoadScene(sceneName: "Scenes/SampleScene");
+        Thread.Sleep(1000);
+        SceneManager.LoadScene(sceneBuildIndex: 1);
 
     }
 }
