@@ -16,6 +16,7 @@ public class Fly : MonoBehaviour
     public float proximityDistance = 0.5f;
     private bool isTriggerPressed = false;
     public pointManager pointManager;
+    public hungerManager hungerManager;
 
     // Start is called before the first frame update
     void Start()
@@ -56,6 +57,7 @@ public class Fly : MonoBehaviour
         {
             pointManager.addPoints(1);
             UIText.text = pointManager.getPoints().ToString();
+            hungerManager.Eat();
             Destroy(gameObject);
         }
     }
@@ -63,6 +65,7 @@ public class Fly : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+            transform.localScale -= new Vector3(0.5f, 0, 0);
 
     }
 }
