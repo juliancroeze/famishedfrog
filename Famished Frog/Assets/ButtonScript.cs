@@ -13,10 +13,28 @@ public class ButtonScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void onClick()
+    public void sendToDeath()
     {
         Thread.Sleep(1000);
         SceneManager.LoadScene(sceneBuildIndex: 1);
+
+    }
+    public void sendToMenu()
+    {
+        Thread.Sleep(1000);
+        SceneManager.LoadScene(sceneBuildIndex: 0);
+
+    }
+    public void sendToLevel1()
+    {
+        Thread.Sleep(1000);
+        SceneManager.LoadScene(sceneBuildIndex: 2);
+
+    }
+    public void sendToLevel2()
+    {
+        Thread.Sleep(1000);
+        SceneManager.LoadScene(sceneBuildIndex: 3);
 
     }
 }

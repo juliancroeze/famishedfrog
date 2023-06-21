@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement;
 
 public class hungerManager : MonoBehaviour
 {
@@ -25,7 +26,7 @@ public class hungerManager : MonoBehaviour
     {
         hungerCube.transform.localScale += new Vector3(0.1f, 0, 0);
         hunger += 1;
-        if (hunger > 4000)
+        if (hunger == 4000)
         {
             passAway();
         }
@@ -39,5 +40,6 @@ public class hungerManager : MonoBehaviour
     public void passAway()
     {
         Debug.Log("You have passed away");
+        SceneManager.LoadScene(sceneBuildIndex: 1);
     }
 }

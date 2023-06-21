@@ -8,6 +8,7 @@ TagManager:
   - Fly
   - Points
   - pointManager
+  - Hunger
   layers:
   - Default
   - TransparentFX
