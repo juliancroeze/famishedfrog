@@ -2182,7 +2182,7 @@ GameObject:
   - component: {fileID: 1450693571116725093}
   - component: {fileID: 7482509928506952961}
   - component: {fileID: -8632231453434733078}
-  - component: {fileID: -8718891296350896667}
+  - component: {fileID: -6481506352036076035}
   m_Layer: 0
   m_Name: Fly (1) 1
   m_TagString: Fly
@@ -2237,7 +2237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   proximityDistance: 0.5
   pointManager: {fileID: -8632231453434733078}
-  hungerManager: {fileID: -8718891296350896667}
+  hungerManager: {fileID: -6481506352036076035}
 --- !u!114 &1450693571116725093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2398,7 +2398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8439561af1f68bf478da6be7095daf0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-8718891296350896667
+--- !u!114 &-6481506352036076035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

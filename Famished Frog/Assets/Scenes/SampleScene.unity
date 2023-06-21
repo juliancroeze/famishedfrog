@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hunger: 0
+  hungerCube: {fileID: 918185488}
 --- !u!4 &15326247
 Transform:
   m_ObjectHideFlags: 0
@@ -653,7 +654,6 @@ GameObject:
   - component: {fileID: 918185493}
   - component: {fileID: 918185492}
   - component: {fileID: 918185491}
-  - component: {fileID: 918185490}
   m_Layer: 5
   m_Name: Cube
   m_TagString: Untagged
@@ -681,19 +681,6 @@ RectTransform:
   m_AnchoredPosition: {x: -128.76, y: 234.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &918185490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918185488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2981d36fa5622440ad3dfa0a657dfee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hunger: 0
 --- !u!65 &918185491
 BoxCollider:
   m_ObjectHideFlags: 0
