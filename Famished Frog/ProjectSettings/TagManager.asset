@@ -9,6 +9,7 @@ TagManager:
   - Points
   - pointManager
   - Hunger
+  - Complete
   layers:
   - Default
   - TransparentFX
