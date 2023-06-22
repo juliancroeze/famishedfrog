@@ -290,6 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   modelPrefab: {fileID: 7937157623400590121, guid: 05c80e0efe0b65d46ad2141c39a7fa5f, type: 3}
+  modelPrefabFireFly: {fileID: 403798622657500293, guid: 08cf26de2ad81b342baa64ef693a0b76, type: 3}
   spawnPoints: []
   randomSpawnPoints: []
   interpolationPeriod: 5

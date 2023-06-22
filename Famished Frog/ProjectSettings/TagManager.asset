@@ -10,6 +10,7 @@ TagManager:
   - pointManager
   - Hunger
   - Complete
+  - FireFLy
   layers:
   - Default
   - TransparentFX

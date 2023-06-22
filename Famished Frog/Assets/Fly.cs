@@ -55,9 +55,14 @@ public class Fly : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            if(this.gameObject.tag == "FireFly") {
+                hungerManager.passAway();
+            }
             pointManager.addPoints(1);
             UIText.text = pointManager.getPoints().ToString();
             hungerManager.Eat(5);
+            
+
             Destroy(gameObject);
         }
     }

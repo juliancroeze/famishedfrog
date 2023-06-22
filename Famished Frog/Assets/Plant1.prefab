@@ -2184,7 +2184,7 @@ GameObject:
   - component: {fileID: -8632231453434733078}
   - component: {fileID: -6481506352036076035}
   m_Layer: 0
-  m_Name: Fly (1) 1
+  m_Name: Plant1
   m_TagString: Fly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2221,7 +2221,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 126
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!114 &6334473025837452675
 MonoBehaviour:
@@ -2410,6 +2410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2981d36fa5622440ad3dfa0a657dfee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hunger: 0
 --- !u!1 &8008928018633213243
 GameObject:
   m_ObjectHideFlags: 0
